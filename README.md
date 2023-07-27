@@ -37,6 +37,7 @@ Once deployed, upload your static website files to the S3 bucket. For example, u
 To clean up and delete the AWS resources created by this Terraform configuration:
 
 Run the following command to destroy the resources:
+
   `terraform destroy`
 
   
