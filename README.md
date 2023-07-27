@@ -27,7 +27,6 @@ Before running the Terraform script, modify the following variables in `main.tf`
 
    #Apply the changes to create the AWS resources:
    terraform apply
-   '''
 
 After successful execution, the CloudFront distribution URL will be shown in the output.
 
@@ -38,7 +37,7 @@ Once deployed, upload your static website files to the S3 bucket. For example, u
 To clean up and delete the AWS resources created by this Terraform configuration:
 
 Run the following command to destroy the resources:
-  terraform destroy
+  `terraform destroy`
 
   
 ## Note
