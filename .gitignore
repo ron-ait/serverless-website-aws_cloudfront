@@ -4,7 +4,11 @@
 # .tfstate files
 *.tfstate
 *.tfstate.*
+<<<<<<< HEAD
 .terraform*
+=======
+.terraform.lock.hcl
+>>>>>>> edfc8e2 (gitignore changes)
 # Crash log files
 crash.log
 crash.*.log
